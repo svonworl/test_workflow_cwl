@@ -1,5 +1,5 @@
 cwlVersion: cwl:draft-3
-class: Workflow
+class: CommandLineTool
 inputs:
   - id: inp
     type: File
