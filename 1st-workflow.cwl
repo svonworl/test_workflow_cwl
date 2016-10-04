@@ -21,4 +21,11 @@ steps:
     run: arguments.cwl
     in:
       src: untar/example_out
-out: [classfile]
+    out: [classfile]
+    
+  wrkflow:
+    run: grep-and-count.cwl
+    in:
+      infiles: inp
+      pattern: "hello"
+    out: [outfile]
