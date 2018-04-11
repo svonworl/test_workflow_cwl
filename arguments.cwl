@@ -3,7 +3,7 @@ class: CommandLineTool
 label: Example trivial wrapper for Java 7 compiler
 baseCommand: javac
 hints:
-  - class: DockerRequirement:
+  - class: DockerRequirement
     dockerPull: java:7
 baseCommand: javac
 arguments: ["-d", $(runtime.outdir)]
