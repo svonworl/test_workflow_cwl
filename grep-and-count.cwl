@@ -2,9 +2,8 @@ class: Workflow
 cwlVersion: v1.0
 
 requirements:
- - class: ScatterFeatureRequirement
- - class: DockerRequirement
-   dockerPull: java:7
+  DockerRequirement:
+   dockerPull: java:9
 
 inputs:
   pattern: string
