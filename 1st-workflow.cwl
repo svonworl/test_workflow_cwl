@@ -14,7 +14,7 @@ steps:
     requirements:
       - class: ScatterFeatureRequirement
       - class: DockerRequirement
-        dockerPull: java:7
+        dockerPull: java:8
     run: tar-param.cwl
     in:
       tarfile: inp
