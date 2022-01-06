@@ -11,6 +11,10 @@ outputs:
 
 steps:
   untar:
+    requirements:
+      - class: ScatterFeatureRequirement
+      - class: DockerRequirement
+        dockerPull: java:7
     run: tar-param.cwl
     in:
       tarfile: inp
