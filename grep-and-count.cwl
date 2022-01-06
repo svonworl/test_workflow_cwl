@@ -3,7 +3,7 @@ cwlVersion: v1.0
 
 requirements:
   DockerRequirement:
-   dockerPull: java:9
+    dockerPull: java:9
 
 inputs:
   pattern: string
