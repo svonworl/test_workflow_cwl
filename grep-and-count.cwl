@@ -28,4 +28,4 @@ steps:
     run: wc.cwl
     in:
       infiles: grep/outfile
-out: [outfile]
+    out: [outfile]
